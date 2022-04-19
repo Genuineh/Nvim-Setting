@@ -46,12 +46,12 @@ packer.startup(
               end
             }
             -- 搜索数目标记
-            use {
-              "kevinhwang91/nvim-hlslens",
-              config = function()
-                require("conf.nvim-hlslens")
-              end
-            }
+            -- use {
+            --   "kevinhwang91/nvim-hlslens",
+            --   config = function()
+            --     require("conf.nvim-hlslens")
+            --   end
+            -- }
             -- 显示缩进线
             use {
               "lukas-reineke/indent-blankline.nvim",
@@ -226,6 +226,17 @@ packer.startup(
             end
 
 
+          }
+          -- rust-tool
+          -- use {
+          --   "simrat39/rust-tools.nvim",
+          --   config = function ()
+          --     require("conf.rust-tools") 
+          --   end
+          -- }
+          -- DAPInstall
+          use {
+            "ravenxrz/DAPInstall.nvim"
           }
         end,
         -- 使用浮动窗口

@@ -7,3 +7,4 @@ require("basic.plugins")
 -- load theme
 vim.cmd("colorscheme kanagawa")
 
+

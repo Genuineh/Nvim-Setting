@@ -1,4 +1,4 @@
-require("dap-python").setup("C:/Users/12134/anaconda3/python")
+require("dap-python").setup("/usr/bin/python3")
 --[[ -- python3 -m pip install debugpy
 return {
     adapters = {
